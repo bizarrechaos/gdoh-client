@@ -1,6 +1,5 @@
 #:card_index: gdoh-client [![Build Status](https://travis-ci.org/bizarrechaos/gdoh-client.svg?branch=master)](https://travis-ci.org/bizarrechaos/gdoh-client)
 
-
 Python libraries and command line interface for Google's DNS-over-HTTPS
 
 ####Installation:
