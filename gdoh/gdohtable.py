@@ -8,7 +8,7 @@ def to_table(resolvelist):
             table = PrettyTable(['NAME', 'DATA', 'TTL'])
             for a in item['Answer']:
                 table.add_row([a['name'], a['data'], a['TTL']])
-        table.set_style(PLAIN_COLUMNS)
-        table.align = 'l'
-        tablelist.append(table)
+            table.set_style(PLAIN_COLUMNS)
+            table.align = 'l'
+            tablelist.append(table)
     return tablelist
